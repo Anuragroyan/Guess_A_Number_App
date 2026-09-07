@@ -1,6 +1,6 @@
 🎯 Number Guessing Game
 
-Number Guessing Game is a React Native application where users try to guess a randomly generated number within a limited number of attempts. The game provides helpful hints after each guess and handles invalid inputs and game states gracefully, creating a simple and interactive gaming experience.
+Number Guessing Game is a React Native Expo application where users try to guess a randomly generated number within a limited number of attempts. The game provides helpful hints after each guess and handles invalid inputs and game states gracefully, creating a simple and interactive gaming experience.
 
 ✨ Key Features
 
@@ -25,7 +25,7 @@ Input validation prevents invalid values from affecting the game, while the appl
 
 🛠️ Tech Stack
 
-React Native • JavaScript • React Hooks • State Management • Input Validation • Random Number Generation
+React Native • Expo • JavaScript • React Hooks • State Management • Input Validation • Random Number Generation
 
 ▶️ Run the App
 
@@ -33,21 +33,25 @@ React Native • JavaScript • React Hooks • State Management • Input Valid
 
 npm install
 
-2. Start Metro
+2. Start Expo
 
-npm start
+npx expo start
 
 3. Run on Android
 
-npm run android
+npx expo start --android
 
 4. Run on iOS
 
-npm run ios
+npx expo start --ios
+
+5. Run on Web
+
+npx expo start --web
 
 🎯 Project Purpose
 
-This project demonstrates how to build an interactive game using React Native while managing user input, game state, random number generation, validation, conditional logic, and error handling. It provides practical experience with React Hooks and creating responsive gameplay interactions.
+This project demonstrates how to build an interactive game using React Native and Expo while managing user input, game state, random number generation, validation, conditional logic, and error handling. It provides practical experience with React Hooks and creating responsive gameplay interactions.
 
 ScreenShot
 
